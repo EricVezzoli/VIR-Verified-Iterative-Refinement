@@ -198,3 +198,7 @@ VIR adds three things to "just writing docs":
 ### Can multiple people use VIR on the same project?
 
 Yes. The root PRD provides a shared source of truth. Extension specs let different people own different subsystems. BUGS.md and ISSUES.md provide a shared view of known problems.
+
+### How do I use VIR with Claude Code?
+
+See the dedicated **[Claude Code Guide](docs/CLAUDE-CODE-GUIDE.md)** for setup instructions, workflows, and best practices.

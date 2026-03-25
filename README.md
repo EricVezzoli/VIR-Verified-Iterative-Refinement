@@ -71,6 +71,15 @@ VIR defines several document types, each with a specific purpose and format:
 | **Deployment Runbook** | Production setup and operations guide | [`templates/DEPLOYMENT.md`](templates/DEPLOYMENT.md) |
 | **Agent Onboarding** | AI agent context file (CLAUDE.md / AGENTS.md) | [`templates/AGENTS.md`](templates/AGENTS.md) |
 
+## Using VIR with Claude Code
+
+VIR was designed to work with AI coding agents, and Claude Code is the primary target. See the **[Claude Code Guide](docs/CLAUDE-CODE-GUIDE.md)** for:
+
+- Setting up CLAUDE.md as your agent onboarding file
+- Workflows for building features, fixing bugs, and resuming work across conversations
+- CLAUDE.md best practices and common pitfalls
+- How VIR plans complement Claude Code's built-in Plan Mode
+
 ## Quick Start
 
 1. Copy the templates you need from `templates/` into your project's `docs/` directory
